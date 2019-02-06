@@ -1,0 +1,516 @@
+/* --------------------
+# General Settings
+-------------*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: 'Niramit', sans-serif;
+  color: cadetblue;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+
+
+
+
+
+.section-box {
+  padding: 120px;
+}
+
+.section-top {
+  margin-bottom: 30px;
+}
+
+.section-top hr {
+  display: inline-block;
+  height: 2px;
+  width: 50px;
+  background-color: cadetblue;
+  border: none;
+}
+
+
+/* --------------------
+# Navigation
+-------------*/
+
+.navbar-brand {
+  transition: all .5s;
+}
+
+
+.navbar-brand:hover {
+  color: aqua !important;
+}
+
+nav.navbar-container {
+  padding: 20px 0 20px 0;
+}
+
+#mainNav {
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 12px 10px;
+  letter-spacing: 1px;
+  color: white;
+  transition: all .5s;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: seagreen;
+}
+
+nav.shrink {
+  padding: 0;
+  background-color: cadetblue !important;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: cadetblue;
+}
+
+nav.shrink .navbar-nav .nav-item .nav-link:hover,
+nav.shrink .navbar-brand:hover {
+  color: black !important;
+}
+
+.navbar-brand.shrink,
+.navbar-container.shrink,
+.navbar.fixed-top.shrink,
+navbar-brand,
+.navbar-container {
+  transition: .8s;
+}
+
+
+/* --------------------
+# Hero Section
+-------------*/
+
+#hero {
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)),
+    url("../img/image05.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+#hero .container {
+  display: table;
+  height: 100vh;
+}
+
+#hero .intro-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#hero .intro-heading {
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-weight: 200;
+}
+
+.btn-main {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: aqua;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-main:hover {
+  background: aqua;
+  border: 2px solid aqua;
+  color: white;
+}
+
+
+/* --------------------
+# Who We Are Section
+-------------*/
+
+#whoweare {
+  background-color: #f2f2f2;
+}
+
+.whoweare-item {
+  padding: 60px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.whoweare-item i {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: cadetblue;
+}
+
+.whoweare-item hr {
+  width: 45px;
+  height: 2px;
+  background-color: cadetblue;
+
+}
+
+.whoweare-item p {
+  margin-top: 20px;
+}
+
+.whoweare-item:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.whoweare-item:hover i,
+.whoweare-item:hover h3,
+.whoweare-item:hover p {
+  color: white;
+}
+
+.whoweare-item:hover hr {
+  background-color: white;
+  width: 75px;
+}
+
+.whoweare-item:hover i {
+  transform: translateY(-10px);
+}
+
+.whoweare-item,
+.whoweare-item i,
+.whoweare-item hr {
+  transition: all .5s ease-in-out;
+}
+
+
+
+/* --------------------
+# Statement Section
+-------------*/
+
+#statement {
+  background: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)),
+    url("../img/statementBG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#statement h4 {
+  color: white;
+}
+
+/* --------------------
+# Latest Projects Section
+-------------*/
+
+#latestprojects {
+  background-color: #f2f2f2;
+}
+
+#latestprojects .project-text {
+  padding: 30px;
+}
+
+#latestprojects .project-text hr {
+  border-color: #fff;
+  border-width: 2px;
+  width: 25%;
+  transition: all .5s;
+}
+
+#latestprojects .project-text:hover hr {
+  width: 50%;
+}
+
+.bg-orange {
+  background-color: cadetblue;
+}
+
+.btn-white {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all .5s;
+}
+
+.btn-white:hover {
+  background: #fff;
+  color: cadetblue;
+  border: 1px solid #fff;
+}
+
+/* --------------------
+# Footer Section
+-------------*/
+
+footer {
+  background-color: #000;
+  padding: 20px 0 10px;
+  font-size: 14px;
+
+}
+
+footer p {
+  margin: 0;
+}
+
+/* --------------------
+# Inside Hero About Section
+-------------*/
+
+.page-image {
+  display: table;
+  width: 100%;
+}
+
+.page-image-about {
+  background: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)),
+    url("../img/aboutBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-weight: 200;
+}
+
+/* --------------------
+#  About us Section
+-------------*/
+
+#aboutus {
+  background-color: #f2f2f2;
+}
+
+#aboutus .project-text {
+  padding: 30px;
+}
+
+/* --------------------
+#  Team Section
+-------------*/
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 250px;
+  height: 250px;
+  border: 7px solid #fff;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+  transition: all .5s;
+}
+
+ul.social-buttons li a:hover {
+  background-color: cadetblue;
+}
+
+
+/* --------------------
+# Portfolio Section
+-------------*/
+
+.page-image-portfolio {
+  background: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)),
+    url("../img/portfolioBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+
+}
+
+.portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(231, 76, 60, 0.8);
+  transition: all .5s;
+}
+
+.portfolio-hover:hover {
+  opacity: 1;
+}
+
+.portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: 12px;
+  text-align: center;
+  color: white;
+}
+
+.portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+.portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.portfolio-caption h4 {
+  margin:0;
+  text-transform: uppercase;
+}
+
+.portfolio-caption p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
+
+
+/* --------------------
+# Contact Section
+-------------*/
+
+.page-image-contact {
+  background: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)),
+    url("../img/contactBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 20px;
+}
+
+.form-group input.form-control {
+  height: auto;
+}
+
+.form-group textarea.form-control {
+  height: 248px;
+}
+
+.form-control:focus {
+  border-color: cadetblue;
+  box-shadow: none;
+}
+
+.btn-contact {
+  background-color: cadetblue;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  background-color: #fff;
+  color: cadetblue;
+}
